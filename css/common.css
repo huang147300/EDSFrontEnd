@@ -1,0 +1,75 @@
+/*************通用样式****************/
+html, body { width: 100%; height: 100%; min-width: 1000px; }
+#wrapper { width: 100%; height: 100%; }
+#wrapper-table { display: table; width: 100%; height: 100%; background: url(../img/login/bg.png) no-repeat center; }
+#wrapper-table-cell { display: table-cell; vertical-align: middle; }
+
+.tal { text-align: left; }
+.tac { text-align: center; }
+.tar { text-align: right; }
+.fl { float: left; }
+.fr { float: right; }
+.p10 { padding: 10px; } .pt10 { padding-top: 10px; } .pr10 { padding-right: 10px; } .pb10 { padding-bottom: 10px; } .pl10 { padding-left: 10px; }
+.p20 { padding: 20px; } .pt20 { padding-top: 20px; } .pr20 { padding-right: 20px; } .pb20 { padding-bottom: 20px; } .pl20 { padding-left: 20px; }
+.p50 { padding: 50px; } .pt50 { padding-top: 50px; } .pr50 { padding-right: 50px; } .pb50 { padding-bottom: 50px; } .pl50 { padding-left: 50px; }
+.m10 { margin: 10px; } .mt10 { margin-top: 10px; } .mr10 { margin-right: 10px; } .mb10 { margin-bottom: 10px; } .ml10 { margin-left: 10px; }
+.m20 { margin: 20px; } .mt20 { margin-top: 20px; } .mr20 { margin-right: 20px; } .mb20 { margin-bottom: 20px; } .ml20 { margin-left: 20px; }
+.m50 { margin: 50px; } .mt50 { margin-top: 50px; } .mr50 { margin-right: 50px; } .mb50 { margin-bottom: 50px; } .ml50 { margin-left: 50px; }
+
+.h100 { height: 100%; }
+
+.tip { padding: 20px 50px; margin: 0; text-align: left; color: #353535; font-size: 18px; }
+.mask { display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 999; opacity: .5; filter: alpha(opacity=50); background: #000; }
+.loading { display: none; position: fixed; left: 50%; top: 50%; width: 128px; height: 128px; margin-left: -64px; margin-top: -100px; z-index: 9999; }
+.noText { font-size: 0; }
+.hidden { display: none; }
+.disabled { opacity: .35; filter: alpha(opacity=35); }
+
+.popup {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 999;
+}
+
+/*************两端对齐***************/
+.justify-list {
+  text-align: justify;
+}
+.justify-list .justify-item {
+  display: inline-block;
+  vertical-align: top;
+}
+.justify-list .justify-fix {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+/*************清除浮动***************/
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+
+/*************改变盒模型***************/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

@@ -1,0 +1,191 @@
+/*********Collection中小盒子的容器样式*********/
+.box-container {
+	padding: 30px 50px;
+	margin: 0;
+}
+.box-container li {
+	position: relative;
+	width: 180px;
+}
+.box-container a {
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+/*********小盒子头部样式*********/
+.box-container .box-head {
+	height: 32px;
+	line-height: 32px;
+	font-size: 18px;
+	text-align: center;
+	color: #FFF;
+	background: #1E89B5;
+	overflow: hidden;
+}
+.box-container a:hover .box-head {
+	background: #F47900 !important;
+}
+/*********小盒子主体样式*********/
+.box-container .box-body {
+	box-sizing: border-box;
+	height: 155px;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	word-wrap: break-word;
+	color: #000;
+	background: #A9A9A9;
+	overflow: hidden;
+}
+.box-container .add .box-body {
+	background: #A9A9A9 url(../img/lxr/plus.png) no-repeat center;
+}
+/*********小盒子删除按钮样式*********/
+.box-container .delBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 32px;
+	height: 32px;
+	padding: 0;
+	border: none;
+	margin: 0;
+	outline: 0;
+	background: #F47900 url(../img/del.png) no-repeat center;
+	opacity: 0;
+}
+.box-container a:hover+.delBtn {
+	opacity: 1;
+	transition: opacity .2s .5s;
+}
+.box-container .delBtn:hover {
+	opacity: 1;
+}
+/*********召开/结束会议*********/
+.box-container .beginBtn {
+	position: absolute;
+	bottom: 30px;
+	left: 45px;
+	width: 100px;
+	height: 34px;
+	padding: 0;
+	border: none;
+	margin: 0;
+	outline: 0;
+	color: #FFF;
+	background: #1E89B5;
+}
+.box-container .beginBtn:hover {
+	background: #F47900;
+}
+
+/*************联系人小盒子样式***************/
+.shadow-box {
+	border: 1px solid #D4D4D4;
+	box-shadow: 0 0 10px 0 #ccc inset;
+}
+.shadow-box h3 {
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #484747;
+	text-align: left;
+	margin-left: 10px;
+} 
+.lxr-box {
+	padding: 10px 20px;
+}
+.lxr-box .lxr {
+	float: left;
+	width: 160px;
+	margin-left: 10px;
+	color: #FFF;
+	cursor: default;
+}
+.lxr-box .lxr-head {
+	height: 30px;
+	line-height: 30px;
+	background: #1E89B5;
+	font-size: 18px;
+	text-align: center;
+	overflow: hidden;
+}
+.lxr-box .lxr.active .lxr-head {
+	background: #F47900;
+}
+.lxr-box .lxr-body {
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 10px;
+	word-wrap: break-word;
+	background: #A9A9A9;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+/*************tab标签样式***************/
+.tabBox ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	overflow: hidden;
+}
+.tabBox li {
+	float: left;
+	height: 32px;
+	line-height: 22px;
+	padding: 4px 8px;
+	border: 1px solid #000;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: none;
+	margin-left: 20px;
+	color: #444;
+	cursor: pointer;
+}
+.tabBox li.active {
+	font-weight: bold;
+	color: #F47900;
+	background: #F4F1F1;
+}
+
+.tabContent {
+	display: none;
+	padding: 30px 50px;
+}
+.tabContent.active {
+	display: block;
+}
+
+/*************箭头样式***************/
+.rightArrow {
+	position: relative;
+	display: inline-block;
+	text-align: right;
+	color: #FFF;
+	background: #1E89B5;
+	cursor: default;
+}
+.rightArrow:after {
+	content: "";
+	position: absolute;
+	display: block;
+	left: 100%;
+}
+.leftArrow {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	color: #FFF;
+	background: #1E89B5;
+	cursor: default;
+}
+.leftArrow:before {
+	content: "";
+	position: absolute;
+	display: block;
+	right: 100%;
+}

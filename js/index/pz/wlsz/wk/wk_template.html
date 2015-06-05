@@ -1,0 +1,76 @@
+<h3>网口<span>1</span>设置</h3>
+
+<div class="formBox">
+	<div class="formLine">
+		<span class="cellName">设为主网口：</span>
+		<div class="fieldBox noText">
+			<input type="checkbox" name="mainDevice" id="mainDevice"/>
+			<label for="mainDevice" class="checkbox-label"></label>
+		</div>
+	</div>
+	
+	<div class="formLine">
+		<div class="fieldBox">
+			<div class="formCell fl">
+				<span class="cellName">网络类型：</span>
+				<div class="fieldBox">
+					<select name="netType" id="netType">
+						<option data-stickit-bind-val="0">手动设置</option>
+						<option data-stickit-bind-val="1">动态获取(DHCP)</option>
+						<option data-stickit-bind-val="2">宽带拨号(PPPoE/ADSL)</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl" netType="014" id="ipCell" style="position:relative;">
+				<span class="cellName">IP地址：</span>
+				<div class="fieldBox">
+					<input type="text" name="ip" id="ip" autocomplete="off" maxlength="16"/>
+				</div>
+			</div>
+			<div class="formCell fl" netType="014" id="maskCell" style="position:relative;">
+				<span class="cellName">子网掩码：</span>
+				<div class="fieldBox">
+					<input type="text" name="mask" id="mask" autocomplete="off" maxlength="16"/>
+				</div>
+			</div>
+			<div class="formCell fl" netType="014" id="gatewayCell" style="position:relative">
+				<span class="cellName">网关地址：</span>
+				<div class="fieldBox">
+					<input type="text" name="gateway" id="gateway" autocomplete="off" maxlength="16"/>
+				</div>
+			</div>
+			<div class="formCell fl" netType="01" id="mainDnsCell" style="position:relative;">
+				<span class="cellName">DNS服务器：</span>
+				<div class="fieldBox">
+					<input type="text" name="mainDns" id="mainDns" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			
+			<div class="formCell fl" netType="2">
+				<span class="cellName">自动拨号：</span>
+				<div class="fieldBox">
+					<input type="checkbox" name="autoDial" id="autoDial"/>
+					<label for="autoDial" class="checkbox-label">&nbsp;</label>
+				</div>
+			</div>
+			
+			<div class="formCell fl" netType="2" id="userCell" style="position:relative;">
+				<span class="cellName">用户名：</span>
+				<div class="fieldBox">
+					<input type="text" name="user" id="user" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" netType="2" id="pwdCell" style="position:relative;">
+				<span class="cellName">密码：</span>
+				<div class="fieldBox">
+					<input type="text" name="pwd" id="pwd" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+	<div class="form-btns">
+		<button type="button" class="btn btn-ls saveBtn">保存</button>
+	</div>
+</div>

@@ -1,0 +1,28 @@
+{
+  "code": 0,
+  "data": {
+    "bookInfo": [
+		{"equType":7, "addrName":"播放器"},
+		                           
+		{"equType":1, "recordId":4, "addrName":"SIP全景woshiquanjing123321"},
+		{"equType":2, "recordId":5, "addrName":"RTSP法官"},
+		{"equType":3, "recordId":6, "addrName":"H323嫌疑人"},
+		{"equType":1, "recordId":7, "addrName":"SIP公诉人"},
+		{"equType":2, "recordId":8, "addrName":"RTSP被告"},
+		{"equType":3, "recordId":9, "addrName":"H323法官"},
+		{"equType":1, "recordId":10, "addrName":"SIP全景"},
+		{"equType":2, "recordId":11, "addrName":"RTSP场景2"},
+		{"equType":3, "recordId":12, "addrName":"H323场景1"},
+		{"equType":1, "recordId":13, "addrName":"SIP中国"},
+		{"equType":2, "recordId":14, "addrName":"RTSP美国"},
+		{"equType":3, "recordId":15, "addrName":"H323原告"},
+		                         
+		{"equType":0, "recordId":16, "addrName":"SDI场景1", "camport":1234},
+		{"equType":0, "recordId":17, "addrName":"SDI场景2", "camport":3456},
+		{"equType":0, "recordId":18, "addrName":"SDI美国", "camport":6732},
+		{"equType":0, "recordId":19, "addrName":"SDI中国", "camport":7854}
+	],
+    "count": 4,
+    "endFlag": 1
+  }
+}

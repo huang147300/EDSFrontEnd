@@ -1,0 +1,42 @@
+<h3>本地输入</h3>
+
+<div class="formBox">
+	<div class="formCell">
+		<div class="fieldBox pb10">
+			<div class="fl ml10 mr20">
+				{{#each MIC}}
+					<div class="slide-vertical-box">
+						<div class="slide-vertical-box-sm">
+							<input type="hidden" name="audInPort" value="{{audInPort}}" />
+							<input type="text" name="audInName" class="slide-vertical-box-name" value="{{audInName}}"/>
+							<button type="button" name="enable" class="btn btn-switch1 mt8 {{isActive enable}}" title="开关"></button>
+							<button type="button" name="phtPwrEn" class="btn btn-switch2 {{isActive phtPwrEn}}" title="幻象供电"></button>
+							<div class="color"></div>
+							<div class="slider" data-min="0" data-max="32" data-vertical="true"></div>
+							<span class="sliderValue" contenteditable="true">{{involume}}</span>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+			
+			<div class="fl ml10">
+				{{#each LineIn}}
+					<div class="slide-vertical-box">
+						<div class="slide-vertical-box-sm">
+							<input type="hidden" name="audInPort" value="{{audInPort}}" />
+							<input type="text" name="audInName" class="slide-vertical-box-name" value="{{audInName}}"/>
+							<button type="button" name="enable" class="btn btn-switch1 {{isActive enable}}" title="开关"></button>
+							<div class="color"></div>
+							<div class="slider" data-min="0" data-max="32" data-vertical="true"></div>
+							<span class="sliderValue" contenteditable="true">{{involume}}</span>
+						</div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+	
+	<div class="form-btns">
+		<button type="button" class="btn btn-ls saveBtn">保存</button>
+	</div>
+</div>

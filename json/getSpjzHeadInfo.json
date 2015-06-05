@@ -1,0 +1,48 @@
+{
+  "code": 0,
+  "data": {
+    "bookInfo": {
+    	"tableName": "场景一",
+    	
+    	"rowHead": [
+    		{"equType":1, "recordId":4, "addrName":"多画面"},
+			{"equType":2, "recordId":5, "addrName":"播放器"},
+			{"equType":3, "recordId":6, "addrName":"法官SDI1"},
+			{"equType":1, "recordId":7, "addrName":"公诉人会场1"},
+			{"equType":2, "recordId":8, "addrName":"辩护人SDI3"},
+			{"equType":3, "recordId":9, "addrName":"嫌疑人SDI4"},
+			{"equType":1, "recordId":10, "addrName":"证人SDI5"},
+			{"equType":2, "recordId":11, "addrName":"全景SDI6"},
+			{"equType":3, "recordId":12, "addrName":"证人书记员"},
+			{"equType":1, "recordId":13, "addrName":"全景观众席"},
+			{"equType":2, "recordId":14, "addrName":"书记员电脑VGA1"},
+			{"equType":3, "recordId":15, "addrName":"公诉人电脑VGA2"},
+			{"equType":2, "recordId":16, "addrName":"辩护人电脑VGA3"},
+			{"equType":2, "recordId":17, "addrName":"证据展台VGA4"}
+    	],
+    	
+    	"colHead": [
+    		{"equType":1, "recordId":4, "addrName":"输出11080P60"},
+			{"equType":2, "recordId":5, "addrName":"输出21080P60"},
+			{"equType":3, "recordId":6, "addrName":"输出31080P60"},
+			{"equType":1, "recordId":7, "addrName":"输出41080P60"},
+			{"equType":2, "recordId":8, "addrName":"法官会场"},
+			{"equType":3, "recordId":9, "addrName":"公诉人会场"},
+			{"equType":1, "recordId":10, "addrName":"辩护人会场"},
+			{"equType":2, "recordId":11, "addrName":"嫌疑人会场"},
+			{"equType":1, "recordId":12, "addrName":"证人会场"},
+			{"equType":2, "recordId":13, "addrName":"直播会场"},
+			{"equType":3, "recordId":14, "addrName":"法庭会场"},
+			{"equType":1, "recordId":15, "addrName":"输出11080P60"},
+			{"equType":3, "recordId":16, "addrName":"输出31080P60"},
+			{"equType":1, "recordId":17, "addrName":"输出41080P60"},
+			{"equType":2, "recordId":18, "addrName":"法官会场"},
+			{"equType":3, "recordId":19, "addrName":"公诉人会场"},
+			{"equType":1, "recordId":20, "addrName":"辩护人会场"},
+			{"equType":2, "recordId":21, "addrName":"嫌疑人会场"},
+			{"equType":1, "recordId":22, "addrName":"证人会场"},
+			{"equType":2, "recordId":23, "addrName":"直播会场"}
+    	]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+<div class="spjk pz">
+	<div class="shadow-box mb20">
+		<h3>视频输出接口配置</h3>
+		<div class="lxr-box cf">
+			{{#each VGA}}
+				<div class="lxr" data-id="{{recordId}}">
+					<div class="lxr-head">{{name}}</div>
+					<div class="lxr-body">{{info}}</div>
+				</div>
+			{{/each}}
+		</div>
+	</div>
+	
+	<div class="shadow-box">
+		<h3>DVI接口配置</h3>
+		
+		<div class="formBox">
+			<div class="formLine">
+				<div class="fieldBox">
+					<div class="formCell fl" id="anotherNameCell" style="position:relative">
+						<span class="cellName">别名：</span>
+						<div class="fieldBox">
+							<input type="text" name="name" id="anotherName" autofocus="autofocus" autocomplete="off" maxlength="31"/>
+						</div>
+					</div>
+					<div class="formCell fl">
+						<span class="cellName">数字信号：</span>
+						<div class="fieldBox">
+							<select name="szxh" id="szxh">
+								<option value="0">HDMI</option>
+							</select>
+						</div>
+					</div>
+					<div class="formCell fl">
+						<span class="cellName">模拟信号：</span>
+						<div class="fieldBox">
+							<select name="mnxh" id="mnxh">
+								<option value="0">VGA</option>
+							</select>
+						</div>
+					</div>
+					<div class="formCell fl">
+						<span class="cellName">分辨率：</span>
+						<div class="fieldBox">
+							<select name="fbl" id="fbl">
+								<option value="0">1080P60</option>
+							</select>
+						</div>
+					</div>
+					<div class="formCell fl">
+						<span class="cellName">显示模式：</span>
+						<div class="fieldBox">
+							<select name="xsms" id="xsms">
+								<option value="0">等比缩放</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="formLine">
+				<div class="fieldBox sliderBox">
+					<div class="formCell fl">
+						<span class="cellName">亮度：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="ld" contenteditable="true"></span>
+						</div>
+					</div>
+					
+					<div class="formCell fl">
+						<span class="cellName">对比度：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="dbd" contenteditable="true"></span>
+						</div>
+					</div>
+					
+					<div class="formCell fl">
+						<span class="cellName">饱和度：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="bhd" contenteditable="true"></span>
+						</div>
+					</div>
+					
+					<div class="formCell fl">
+						<span class="cellName">水平偏移：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="sppy" contenteditable="true"></span>
+						</div>
+					</div>
+					
+					<div class="formCell fl">
+						<span class="cellName">垂直偏移：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="czpy" contenteditable="true"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="form-btns">
+				<button type="button" class="btn btn-ls saveBtn">保存</button>
+			</div>
+		</div>
+	</div>
+</div>

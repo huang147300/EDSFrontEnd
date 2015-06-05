@@ -1,0 +1,44 @@
+<h3>H.323设置</h3>
+
+<div class="formBox">
+	<div class="formLine">
+		<span class="cellName">启用GK：</span>
+		<div class="fieldBox noText">
+			<input type="checkbox" name="enable" id="enable"/>
+			<label for="enable" class="checkbox-label"></label>
+		</div>
+	</div>
+	
+	<div class="formLine">
+		<div class="fieldBox">
+			<div class="formCell fl" id="gkIpCell" style="position:relative;">
+				<span class="cellName">GK地址：</span>
+				<div class="fieldBox">
+					<input type="text" name="gkIp" id="gkIp" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="regNumCall" style="position:relative;">
+				<span class="cellName">会场号码：</span>
+				<div class="fieldBox">
+					<input type="text" name="regNum" id="regNum" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="regNameCell" style="position:relative;">
+				<span class="cellName">认证名称：</span>
+				<div class="fieldBox">
+					<input type="text" name="regName" id="regName" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="regPwdCell" style="position:relative;">
+				<span class="cellName">认证密码：</span>
+				<div class="fieldBox">
+					<input type="password" name="regPwd" id="regPwd" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-btns">
+		<button type="button" class="btn btn-ls saveBtn">保存</button>
+	</div>
+</div>

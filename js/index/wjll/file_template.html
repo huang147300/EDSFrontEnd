@@ -1,0 +1,38 @@
+<table>
+	<tr>
+		<th>
+			<input type="checkbox" name="checkAll" id="checkAll"/>
+			<label for="checkAll" class="checkbox-label">文件名称</label>
+		</th>
+		<th width="100">文件大小</th>
+		<th width="90">文件时长</th>
+		<th width="176">录制时间</th>
+		<th width="90">会议号</th>
+		<th width="100">会议名</th>
+		<th width="100">召集人</th>
+		<th width="100">文件类型</th>
+		<th>存储路径</th>
+		<th width="150">操作</th>
+	</tr>
+	{{#each items}}
+		<tr data-path="{{filePath}}">
+			<td class="tal" title="{{fileName}}">
+				<input type="checkbox" name="fileName" id="fileName{{@index}}"/>
+				<label for="fileName{{@index}}" class="checkbox-label">{{fileName}}</label>
+			</td>
+			<td>{{getFileSize fileSize}}</td>
+			<td>{{getPlayTime playTime}}</td>
+			<td>{{recordTime}}</td>
+			<td title="{{confNum}}">{{confNum}}</td>
+			<td title="{{confName}}">{{confName}}</td>
+			<td title="{{convenor}}">{{convenor}}</td>
+			<td>{{getFileType fileType}}</td>
+			<td title="{{filePath}}">{{filePath}}</td>
+			<td>
+				<a href="javascript:void(0);" class="playBtn">播放</a>
+				<a href="{{filePath}}" class="downloadBtn">下载</a>
+				<a href="javascript:void(0);" class="deleteBtn">删除</a>
+			</td>
+		</tr>
+	{{/each}}
+</table>

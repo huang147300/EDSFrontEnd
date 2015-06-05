@@ -1,0 +1,119 @@
+<div class="spjk pz">
+	<div class="shadow-box mb20">
+		<h3>视频输入接口配置</h3>
+		<div class="lxr-box cf">
+			{{#each SDI}}
+				<div class="lxr" data-id="{{camPort}}">
+					<div class="lxr-head">{{name}}</div>
+					<div class="lxr-body">{{info}}</div>
+				</div>
+			{{/each}}
+			
+			{{#each VGA}}
+				<div class="lxr" data-id="{{vgaPort}}">
+					<div class="lxr-head">{{name}}</div>
+					<div class="lxr-body">{{info}}</div>
+				</div>
+			{{/each}}
+		</div>
+	</div>
+	
+	<div class="shadow-box">
+		<h3>SDI接口配置</h3>
+		
+		<div class="formBox">
+			<div class="formLine">
+				<div class="fieldBox">
+					<div class="formCell fl" id="anotherNameCell" style="position:relative">
+						<span class="cellName">别名：</span>
+						<div class="fieldBox">
+							<input type="text" name="name" id="anotherName" autofocus="autofocus" autocomplete="off"/>
+						</div>
+					</div>
+					<div class="formCell fl SDI">
+						<span class="cellName">控制串口：</span>
+						<div class="fieldBox">
+							<select name="kzck" id="kzck">
+								<option value="0">COM1</option>
+								<option value="1">COM2</option>
+								<option value="2">COM3</option>
+								<option value="3">COM4</option>
+								<option value="4">COM5</option>
+								<option value="5">COM6</option>
+								<option value="6">COM7</option>
+								<option value="7">COM8</option>
+							</select>
+						</div>
+					</div>
+					<div class="formCell fl SDI">
+						<span class="cellName">移动速度：</span>
+						<div class="fieldBox">
+							<select name="ydsd" id="ydsd">
+								<option value="0">慢速</option>
+								<option value="1">中速</option>
+								<option value="2">快速</option>
+							</select>
+						</div>
+					</div>
+					<div class="formCell fl VGA">
+						<span class="cellName">输入接口信号：</span>
+						<div class="fieldBox">
+							<select name="srjkxh" id="srjkxh">
+								<option value="0">VGA</option>
+								<option value="1">YPbPr</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="formLine">
+				<div class="fieldBox sliderBox">
+					<div class="formCell fl">
+						<span class="cellName">亮度：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="ld" contenteditable="true"></span>
+						</div>
+					</div>
+					
+					<div class="formCell fl">
+						<span class="cellName">对比度：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="dbd" contenteditable="true"></span>
+						</div>
+					</div>
+					
+					<div class="formCell fl">
+						<span class="cellName">饱和度：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="bhd" contenteditable="true"></span>
+						</div>
+					</div>
+					
+					<div class="formCell fl">
+						<span class="cellName">水平偏移：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="sppy" contenteditable="true"></span>
+						</div>
+					</div>
+					
+					<div class="formCell fl">
+						<span class="cellName">垂直偏移：</span>
+						<div class="fieldBox">
+							<div class="slider" data-min="0" data-max="255"></div>
+							<span class="sliderValue" id="czpy" contenteditable="true"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="form-btns">
+				<button type="button" class="btn btn-ls saveBtn">保存</button>
+			</div>
+		</div>
+	</div>
+</div>

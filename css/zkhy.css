@@ -1,0 +1,366 @@
+/************预定义会议样式开始*************/
+/******表单样式******/
+#zkhy_ydyhy_add .formBox {
+	position: relative;
+	margin: 20px auto;
+	width: 90%;
+}
+#zkhy_ydyhy_add input[name=desc] {
+	width: 96%;
+	max-width: 1220px;
+}
+#zkhy_ydyhy_add .form-btns {
+	text-align: center;
+}
+#zkhy_ydyhy_add .cancelBtn {
+	margin-left: 50px;
+}
+
+#zkhy_ydyhy_show .begin .box-head {
+	background-color: #1E89B5;
+}
+#zkhy_ydyhy_show .end .box-head {
+	background-color: #838383;
+}
+/************预定义会议样式结束*************/
+
+
+
+/*********添加会议模板样式开始***********/
+#zkhy_hymb_add .tabBox {
+	position: relative;
+}
+#zkhy_hymb_add .tabContentBox {
+	position: absolute;
+	top: 32px;
+	bottom: 60px;
+	left: 200px;
+	right: 0;
+	overflow: auto;
+}
+#zkhy_hymb_add .btn-area {
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+	right: 0;
+	text-align: center;
+	background: #D4D4D4;
+}
+#zkhy_hymb_add .cancelBtn {
+	margin-left: 50px;
+}
+/********基本参数样式开始***********/
+#zkhy_hymb_add input[name=desc] {
+	width: 50%;
+}
+/********基本参数样式结束***********/
+
+/********与会者样式开始***********/
+#zkhy_hymb_add_yhz {
+	padding: 30px 0;
+}
+.select-lxr-box {
+	width: 100%;
+	text-align: center;
+}
+.select-lxr-box .box-right {
+	display: inline-block;
+	width: 33%;
+	height: 648px;
+	vertical-align: top;
+	overflow: auto;
+	background: #E5E5E5;
+}
+.select-lxr-box .box-left {
+	position: relative;
+	display: inline-block;
+	width: 45%;
+	height: 648px;
+	vertical-align: top;
+}
+.lxr-box-container {
+	width: 100%;
+	height: 100%;
+	padding-right: 12px;
+	overflow: auto;
+	background: #F8F7F7;
+}
+.nav-character {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+	height: 100%;
+	background: #C6C6C6;
+}
+.nav-character i {
+	float: left;
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	font-size: 24px;
+	font-style: normal;
+	text-align: center;
+	color: #434242;
+	cursor: pointer;
+}
+.nav-character i:hover {
+	background: #F47900;
+}
+/*********联系人标签样式*********/
+.lxr-label {
+	height: 32px;
+	padding-left: 12px;
+	margin-left: 8px;
+	line-height: 32px;
+	background: #DDDCDC;
+	color: #5F5F5F;
+	font-size: 25px;
+	text-align: left;
+}
+/******添加按钮*******/
+.btn-area-adddel {
+	display: inline-block;
+	width: 15%;
+	max-width: 180px;
+	height: 648px;
+	padding-top: 230px;
+	vertical-align: top;
+	overflow: hidden;
+	text-align: center;
+}
+/******添加删除按钮*******/
+.btn-area-adddel .btn-add {
+	width: 66px;
+	height: 44px;
+	margin-left: -37px;
+	line-height: 44px;
+	font-size: 20px;
+}
+.btn-area-adddel .btn-add:after {
+	top: -15px;
+	border: 37px solid transparent;
+	border-left-color: #1E89B5;
+}
+/******删除按钮*******/
+.btn-area-adddel .btn-del {
+	width: 66px;
+	height: 44px;
+	line-height: 44px;
+	margin-top: 37px;
+	margin-left: 37px;
+	font-size: 20px;
+}
+.btn-area-adddel .btn-del:before {
+	top: -15px;
+	border: 37px solid transparent;
+	border-right-color: #1E89B5;
+}
+/******箭头hover样式*******/
+.btn-area-adddel .leftArrow:hover,
+.btn-area-adddel .rightArrow:hover {
+	background: #F47900;
+}
+.btn-area-adddel .leftArrow:hover:before {
+	border-right-color: #F47900;
+}
+.btn-area-adddel .rightArrow:hover:after {
+	border-left-color: #F47900;
+}
+/********与会者样式结束***********/
+
+/************多画面样式开始*************/
+.mode-box-container {
+    border: 1px solid #D4D4D4;
+    box-shadow: 0 0 10px 0 #ccc inset;
+    padding-top: 20px;
+    background: #e5e5e5;
+    overflow: hidden;
+}
+.mode-box {
+	position: relative;
+    float: left;
+    width: 144px;
+    height: 81px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background: #A9ABAE;
+}
+.mode-box table {
+    width: 100%;
+    height: 100%;
+    border: none;
+    table-layout: fixed;
+}
+.mode-box .mode-table-2 {
+	position: relative;
+	top: 25%;
+	height: 50%;
+}
+.mode-box .mode-table-hzh {
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+	width: 33%;
+	height: 33%;
+}
+.mode-box td {
+    border: 2px solid #FFF;
+    background: #1E89B5;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	color: #FFF;
+}
+.mode-box.active td {
+    background: #F47900;
+}
+.unvisible {
+    background: transparent !important;
+}
+/************多画面配置容器样式*************/
+.dhm-pz-container {
+	position: relative;
+	height: 500px;
+	margin-top: 20px;
+}
+/************多画面左侧联系人样式*************/
+.lxr-box2 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 100%;
+	padding: 20px;
+	border: 1px solid #D4D4D4;
+	box-shadow: 0 0 10px 0 #ccc inset;
+	overflow: auto;
+	background: #E5E5E5;
+}
+.lxr-box2 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.lxr-box2 li {
+	margin-bottom: 5px;
+	padding-left: 15px;
+	line-height: 2;
+	background: #1E89B5;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #FFF;
+	cursor: move;
+}
+.lxr-box2 li:hover {
+	background: #F47900;
+}
+.dhm-pz-container li.ui-draggable-dragging {
+	width: 158px;
+	padding-left: 15px;
+	line-height: 2;
+	list-style: none;
+	color: #FFF;
+}
+/************多画面右侧被选择的mode放大版样式*************/
+.mode-box-selected-container {
+	margin-left: 220px;
+	height: 100%;
+	border: 1px solid #D4D4D4;
+	box-shadow: 0 0 10px 0 #ccc inset;
+	text-align: center;
+	background: #E5E5E5;
+}
+.mode-box-big {
+	position: relative;
+	z-index: 0;
+	top: 5%;
+	float: none;
+	width: 70%;
+	min-width: 380px;
+	max-width: 800px;
+	height: 90%;
+	margin: auto;
+}
+.mode-box-big .mode-table-hzh {
+	bottom: 6px;
+	right: 6px;
+}
+.mode-box-big td {
+    border: 5px solid #FFF;
+}
+.mode-box-big td.hover,
+.mode-box-big td.active {
+    background: #F47900;
+}
+/**********增大可拖拽范围**********/
+.mode-box-big .lxr-span {
+	padding: 10px 20px;
+	color: #FFF;
+	cursor: move;
+}
+.dhm-pz-container .lxr-span.ui-draggable-dragging {
+	padding: 10px 20px;
+	color: #FFF;
+	cursor: move;
+}
+/************多画面样式结束*************/
+
+/************视频矩阵样式开始*************/
+.spjz-table-container {
+	padding: 20px 0;
+}
+.spjz-table-container th,
+.spjz-table-container td {
+	border: 1px solid #1E89B5;
+	height: 50px;
+	padding: 0 10px;
+}
+.spjz-table-container td.hover {
+	background: #E5E5E5;
+}
+.spjz-table-container td.hoverIn {
+	background: #1E89B5;
+}
+.spjz-table-container td.active {
+	background: #C77405;
+}
+/************视频矩阵样式结束*************/
+
+/************录制编码样式开始*************/
+.lzbm-box {
+	padding: 20px;
+	margin: 0 0 -10px -10px;
+}
+.lzbm-box .btn {
+	width: 150px;
+	height: 80px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.lzbm .lineName {
+	width: 146px;
+	font-size: 18px;
+	padding-right: 20px;
+}
+.lzbm .formCell {
+	margin-right: 50px;
+}
+.lzbm .cellName {
+	width: 100px;
+}
+.lzbm-sppz .cellName {
+	width: 84px;
+}
+.lzbm-djtbzm .checkbox-label {
+	width: 126px;
+}
+.lzbm-sppz .formLine,
+.lzbm-yppz .formLine,
+.lzbm-djtbzm .formLine {
+	padding-left: 50px;
+}
+
+/************录制编码样式结束*************/
+/********添加会议模板样式结束***********/

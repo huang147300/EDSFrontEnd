@@ -1,0 +1,99 @@
+<div class="formBox">
+	<div class="formLine" id="addrNameLine" style="position:relative;">
+		<span class="lineName">会场名称：</span>
+		<div class="fieldBox">
+			<input type="text" name="addrName" maxlength="31" id="addrName" autofocus="autofocus" autocomplete="off"/>
+		</div>
+	</div>
+	<div class="formLine">
+		<span class="lineName">会场类型：</span>
+		<div class="fieldBox">
+			<select name="equType" id="equType"></select>
+		</div>
+	</div>
+	<div class="formLine" equType="0">
+		<span class="lineName">摄像机：</span>
+		<div class="fieldBox">
+			<select name="camPort" id="camPort">
+				<option data-stickit-bind-val={{vidInCnt}}>--请选择--</option>
+				{{#each sdiInfo}}
+					<option data-stickit-bind-val={{camPort}}>{{name}}</option>
+				{{/each}}
+			</select>
+		</div>
+	</div>
+	<div class="formLine" equType="0">
+		<span class="lineName">VGA：</span>
+		<div class="fieldBox">
+			<select name="vgaPort" id="vgaPort">
+				<option data-stickit-bind-val={{vidInCnt}}>--请选择--</option>
+				{{#each vgaInfo}}
+					<option data-stickit-bind-val={{vgaPort}}>{{name}}</option>
+				{{/each}}
+			</select>
+		</div>
+	</div>
+	<div class="formLine" equType="0">
+		<span class="lineName">对应预置位：</span>
+		<div class="fieldBox">
+			<select name="presetNum" id="presetNum"></select>
+		</div>
+	</div>
+	<div class="formLine" equType="0">
+		<span class="lineName">参与语音激励：</span>
+		<div class="fieldBox">
+			<input type="checkbox" name="voiIncentive" id="voiIncentive"/>
+			<label for="voiIncentive" class="checkbox-label"></label>
+		</div>
+	</div>
+	<div class="formLine" equType="0">
+		<span class="lineName">语音激励MIC：</span>
+		<div class="fieldBox" id="micContent">
+			{{#each micInfo}}
+				<input type="checkbox" name="micPort" id="MIC{{@index}}" value="{{micPort}}"/>
+				<label for="MIC{{@index}}" class="checkbox-label">{{name}}</label>
+			{{/each}}
+		</div>
+	</div>
+	<div class="formLine" equType="0">
+		<span class="lineName">激励优先级：</span>
+		<div class="fieldBox">
+			<select name="incPriLev" id="incPriLev"></select>
+		</div>
+	</div>
+	<div class="formLine" equType="123">
+		<span class="lineName" equType="12">会场带宽：</span>
+		<span class="lineName" equType="3">点播带宽：</span>
+		<div class="fieldBox">
+			<select name="bandwidth" id="bandwidth"></select>
+		</div>
+	</div>
+	<div class="formLine" equType="12" id="e164Line" style="position:relative;">
+		<span class="lineName">号码：</span>
+		<div class="fieldBox">
+			<input type="text" name="e164" id="e164" autocomplete="off" maxlength="31"/>
+		</div>
+	</div>
+	<div class="formLine" equType="12" id="iplxrLine" style="position:relative;">
+		<span class="lineName">IP地址：</span>
+		<div class="fieldBox">
+			<input type="text" name="ip" id="iplxr" autocomplete="off" maxlength=16/>
+		</div>
+	</div>
+	<div class="formLine" equType="3" id="urlLine" style="position:relative;">
+		<span class="lineName">点播URL：</span>
+		<div class="fieldBox">
+			<input type="text" name="url" id="url" autocomplete="off" maxlength=99/>
+		</div>
+	</div>
+	<div class="formLine" equType="123" id="storNumLine" style="position:relative;">
+		<span class="lineName">排序号：</span>
+		<div class="fieldBox">
+			<input type="text" name="storNum" id="storNum" autocomplete="off" maxlength=31/>
+		</div>
+	</div>
+	<div class="form-btns">
+		<button type="button" class="btn btn-ls saveBtn">保存</button>
+		<button type="button" class="btn btn-ls cancelBtn">取消</button>
+	</div>
+</div>

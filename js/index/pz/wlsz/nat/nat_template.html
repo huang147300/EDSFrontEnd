@@ -1,0 +1,54 @@
+<h3>NAT设置</h3>
+
+<div class="formBox">
+	<div class="formLine">
+		<span class="cellName">启用NAT：</span>
+		<div class="fieldBox noText">
+			<input type="checkbox" name="enable" id="enable"/>
+			<label for="enable" class="checkbox-label"></label>
+		</div>
+	</div>
+	
+	<div class="formLine">
+		<div class="fieldBox">
+			<div class="formCell fl" id="externalIpCell" style="position:relative;">
+				<span class="cellName">外部IP地址：</span>
+				<div class="fieldBox">
+					<input type="text" name="externalIp" id="externalIp" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+		</div>
+		<div class="fieldBox">
+			<div class="formCell fl" id="callBeginPortCell" style="position:relative;">
+				<span class="cellName">呼叫起始端口：</span>
+				<div class="fieldBox">
+					<input type="text" name="callBeginPort" id="callBeginPort" class="spinner" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="callEndPortCell" style="position:relative;">
+				<span class="cellName">呼叫结束端口：</span>
+				<div class="fieldBox">
+					<input type="text" name="callEndPort" id="callEndPort" class="spinner" maxlength="31" />
+				</div>
+			</div>
+		</div>
+		<div class="fieldBox">
+			<div class="formCell fl" id="rtpBeginPortCell" style="position:relative;">
+				<span class="cellName">媒体起始端口：</span>
+				<div class="fieldBox">
+					<input type="text" name="rtpBeginPort" id="rtpBeginPort" class="spinner" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="rtpEndPortCell" style="position:relative;">
+				<span class="cellName">媒体结束端口：</span>
+				<div class="fieldBox">
+					<input type="text" name="rtpEndPort" id="rtpEndPort" class="spinner" maxlength="31"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-btns">
+		<button type="button" class="btn btn-ls saveBtn">保存</button>
+	</div>
+</div>

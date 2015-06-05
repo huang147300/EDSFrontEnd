@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "data": {
+	"addrName": "远程默认名字",
+	"equType": 1,
+	"camPort": 1,
+	"presetNum": 1,
+	"voiIncentive": 1,
+	"micPort": [1, 3],
+	"incPriLev": 1,
+	"bandwidth": 4800000,
+	"e164": "e164",
+	"ip": "8.8.8.8",
+	"url": "123.234.321.345",
+	"storNum": 1
+  }
+}

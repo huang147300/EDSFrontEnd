@@ -1,0 +1,51 @@
+<h3>Qos设置</h3>
+
+<div class="formBox">
+	<div class="formLine">
+		<div class="fieldBox">
+			<div class="formCell fl">
+				<span class="cellName">QoS对象：</span>
+				<div class="fieldBox">
+					<select name="qosdx" id="qosdx">
+						<option value="0">音频</option>
+						<option value="1">视频</option>
+						<option value="2">辅流</option>
+						<option value="3">数据</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">QoS类型：</span>
+				<div class="fieldBox">
+					<input type="checkbox" name="ipyxj" id="ipyxj"/>
+					<label for="ipyxj" class="checkbox-label">IP优先级</label>
+					<input type="checkbox" name="qffw" id="qffw"/>
+					<label for="ipyxj" class="checkbox-label">区分服务</label>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">优先类型：</span>
+				<div class="fieldBox">
+					<select name="yxlx" id="yxlx">
+						<option value="0">普通</option>
+						<option value="1">最小时延</option>
+						<option value="2">最大吞吐量</option>
+						<option value="3">最大可靠性</option>
+						<option value="4">最小代价</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">优先级：</span>
+				<div class="fieldBox">
+					<div class="slider"></div>
+					<div class="sliderValue"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-btns">
+		<button type="button" class="btn btn-ls saveBtn">保存</button>
+	</div>
+</div>

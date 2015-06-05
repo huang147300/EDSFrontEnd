@@ -1,0 +1,37 @@
+#lxr_show .sxj .box-body {
+	background: #A9A9A9 url(../img/lxr/sxj.png) no-repeat 110px 110px;
+}
+#lxr_show .zk .box-body {
+	background: #A9A9A9 url(../img/lxr/zk.png) no-repeat 103px 110px;
+}
+#lxr_show .zkhy .box-body {
+	background: #A9A9A9 url(../img/lxr/zkhy.png) no-repeat 96px 98px;
+}
+
+/******添加联系人表单样式******/
+#lxr_add .formBox {
+	position: relative;
+	width: 60%;
+	min-width: 800px;
+	max-width: 1050px;
+	padding-top: 50px;
+	padding-right: 150px;
+	margin: 0 auto;
+}
+#lxr_add .formLine[equType],
+#lxr_add .lineName[equType] {
+	display: none;
+}
+#lxr_add .checkbox-label {
+	width: 100px;
+}
+
+#lxr_add .form-btns {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 140px;
+}
+#lxr_add .form-btns .btn {
+	margin-top: 10px;
+}

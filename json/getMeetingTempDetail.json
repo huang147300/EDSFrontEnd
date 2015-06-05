@@ -1,0 +1,42 @@
+{
+  "code": 0,
+  "data": {
+	"recordId": 1,
+	"name": "模板名称111",
+	"desc": "这是一个远程模板",
+	"audProt": 8,
+	"vidProt": 5,
+	"vidFmt": 2,
+	"frameRate": 15,
+	"vidQuality": 1,
+	"secVidFlag": 1,
+	"secProt": 0,
+	"secFmt": 4,
+	"secFrameRate": 30,
+	"secQuality": 1,
+	"secVidSend": 1,
+	"enbTransGuard": 1,
+	"venueId": [1, 2, 4, 5, 7, 11, 12, 16],
+	
+	"enable": 0,
+	"showMpMode": 3,
+	"subPicCnt": 4,
+	"subPicInfo": [
+		{
+			"equType": 1,
+			"recordId": 4
+		},
+		{
+			"equType": 2,
+			"recordId": 5
+		},
+		{
+			"equType": 3,
+			"recordId": 6
+		},
+		{
+			"equType": 7
+		}
+	]
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"code": 0,
+	"data": {
+		"sdiInfo": [
+		  {
+		    "camPort": 0,
+		    "name": "SDI0"
+		  },
+		  {
+		    "camPort": 1,
+		    "name": "SDI1"
+		  },
+		  {
+		    "camPort": 2,
+		    "name": "SDI2"
+		  }
+		]
+	}
+}

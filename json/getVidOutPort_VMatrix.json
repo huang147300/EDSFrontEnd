@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "data": {
+    "bookInfo": [
+		{"initial":"C", "equType":1, "recordId":17, "addrName":"场景2", "ip":"SDI2"},
+		{"initial":"C", "equType":1, "recordId":18, "addrName":"场景23", "ip":"SDI23"},
+		{"initial":"C", "equType":1, "recordId":19, "addrName":"场景24", "ip":"SDI24"},
+		
+		{"initial":"A", "equType":2, "recordId":1, "addrName":"全景", "ip":"SDI6"},
+		{"initial":"A", "equType":2, "recordId":2, "addrName":"法官", "ip":"SDI1"},
+		{"initial":"A", "equType":2, "recordId":3, "addrName":"嫌疑人", "ip":"SDI3"},
+		{"initial":"A", "equType":2, "recordId":4, "addrName":"公诉人", "ip":"SDI4"},
+		{"initial":"A", "equType":2, "recordId":5, "addrName":"被告", "ip":"SDI6"},
+		
+		{"initial":"B", "equType":0, "recordId":11, "addrName":"法官", "camPort":"SDI1"},
+		{"initial":"B", "equType":0, "recordId":12, "addrName":"全景", "camPort":"SDI6"},
+		{"initial":"B", "equType":0, "recordId":13, "addrName":"场景2", "camPort":"SDI2"},
+		{"initial":"B", "equType":0, "recordId":14, "addrName":"场景1", "camPort":"SDI1"},
+		{"initial":"B", "equType":0, "recordId":15, "addrName":"中国", "camPort":"SDI7"},
+		{"initial":"B", "equType":3, "recordId":16, "addrName":"美国", "url":"SDI4"},
+		
+		{"initial":"A", "equType":1, "recordId":6, "addrName":"原告", "ip":"SDI2"},
+		{"initial":"A", "equType":1, "recordId":7, "addrName":"场景1", "ip":"SDI1"},
+		{"initial":"A", "equType":3, "recordId":8, "addrName":"场景2", "url":"SDI2"},
+		{"initial":"A", "equType":3, "recordId":9, "addrName":"美国", "url":"SDI4"},
+		{"initial":"A", "equType":3, "recordId":10, "addrName":"中国", "url":"SDI7"},
+		
+		{"initial":"1", "equType":2, "recordId":20, "addrName":"场景2", "ip":"SDI22"},
+		{"initial":"$", "equType":2, "recordId":21, "addrName":"场景23", "ip":"SDI23"},
+		{"initial":"@", "equType":2, "recordId":22, "addrName":"场景2", "ip":"SDI22"},
+		{"initial":"*", "equType":2, "recordId":23, "addrName":"场景23", "ip":"SDI23"},
+		{"initial":"&", "equType":1, "recordId":24, "addrName":"场景2", "ip":"SDI22"},
+		{"initial":"%", "equType":1, "recordId":25, "addrName":"场景23", "ip":"SDI23"},
+		{"initial":"7", "equType":3, "recordId":26, "addrName":"场景2", "url":"SDI22"},
+		{"initial":"#", "equType":3, "recordId":27, "addrName":"场景23", "url":"SDI23"}
+	],
+    "count": 4,
+    "endFlag": 1
+  }
+}

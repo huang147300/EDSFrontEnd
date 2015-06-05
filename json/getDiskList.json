@@ -1,0 +1,31 @@
+{
+	"code": 0,
+	"data": {
+		"diskList": [
+			{
+				"diskName": "硬盘A",
+				"diskPath": "硬盘A path",
+				"availbleSize": "300M",
+				"totalSize": "1T"
+			},
+			{
+				"diskName": "硬盘B",
+				"diskPath": "硬盘B path",
+				"availbleSize": "2T",
+				"totalSize": "2T"
+			},
+			{
+				"diskName": "硬盘C",
+				"diskPath": "硬盘C path",
+				"availbleSize": "3T",
+				"totalSize": "3T"
+			},
+			{
+				"diskName": "硬盘D",
+				"diskPath": "硬盘D path",
+				"availbleSize": "4T",
+				"totalSize": "4T"
+			}
+		]
+	}
+}

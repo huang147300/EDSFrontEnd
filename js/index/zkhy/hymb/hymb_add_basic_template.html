@@ -1,0 +1,110 @@
+<div class="formBox">
+	<div class="formLine" id="nameLine" style="position:relative;">
+		<span class="lineName">模板名称</span>
+		<div class="fieldBox">
+			<input type="text" name="name" id="lineName" maxlength="31" autofocus="autofocus" autocomplete="off"/>
+		</div>
+	</div>
+	<div class="formLine" id="descLine" style="position:relative;">
+		<span class="lineName">模板描述</span>
+		<div class="fieldBox">
+			<input type="text" name="desc" id="desc" autocomplete="off"/>
+		</div>
+	</div>
+	<div class="formLine">
+		<span class="lineName">音频配置</span>
+		<div class="fieldBox">
+			<div class="formCell">
+				<span class="cellName">音频协议：</span>
+				<div class="fieldBox">
+					<select name="audProt" id="audProt"></select>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="formLine">
+		<span class="lineName">摄像机图像</span>
+		<div class="fieldBox">
+			<div class="formCell fl">
+				<span class="cellName">视频协议：</span>
+				<div class="fieldBox">
+					<select name="vidProt" id="vidProt"></select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">格式：</span>
+				<div class="fieldBox">
+					<select name="vidFmt" id="vidFmt"></select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">帧率：</span>
+				<div class="fieldBox">
+					<select name="frameRate" id="frameRate"></select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">图像质量：</span>
+				<div class="fieldBox">
+					<select name="vidQuality" id="vidQuality"></select>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="formLine">
+		<span class="lineName">演示图像</span>
+		<div class="fieldBox">
+			<div class="fieldBox">
+				<div class="formCell">
+					<input type="checkbox" name="secVidFlag" id="secVidFlag"/>
+					<label for="secVidFlag" class="checkbox-label">启用演示</label>
+				</div>
+			</div>
+			<div class="fieldBox">
+				<div class="formCell fl">
+					<span class="cellName">演示协议：</span>
+					<div class="fieldBox">
+						<select name="secProt" id="secProt"></select>
+					</div>
+				</div>
+				<div class="formCell fl">
+					<span class="cellName">格式：</span>
+					<div class="fieldBox">
+						<select name="secFmt" id="secFmt"></select>
+					</div>
+				</div>
+				<div class="formCell fl">
+					<span class="cellName">帧率：</span>
+					<div class="fieldBox">
+						<select name="secFrameRate" id="secFrameRate"></select>
+					</div>
+				</div>
+				<div class="formCell fl">
+					<span class="cellName">图像质量：</span>
+					<div class="fieldBox">
+						<select name="secQuality" id="secQuality"></select>
+					</div>
+				</div>
+				<div class="formCell fl">
+					<span class="cellName">演示发送方式：</span>
+					<div class="fieldBox">
+						<select name="secVidSend" id="secVidSend">
+							<option value="1">自动</option>
+							<option value="2">手动</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="formLine">
+		<span class="lineName">传输卫士</span>
+		<div class="fieldBox">
+			<input type="checkbox" name="enbTransGuard" id="enbTransGuard"/>
+			<label for="enbTransGuard" class="checkbox-label">启用传输卫士</label>
+		</div>
+	</div>
+</div>

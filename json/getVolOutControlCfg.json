@@ -1,0 +1,10 @@
+{
+	"code": 0,
+	"data": {
+		"volumeSingleOutPut": [
+			{ "groupNum": 0, "enable": 0, "outVol": 12 },
+			{ "groupNum": 1, "enable": 1, "outVol": 14 },
+			{ "groupNum": 2, "enable": 1, "outVol": 22 }
+		]
+	}
+}

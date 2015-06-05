@@ -1,0 +1,21 @@
+{
+	"SDI": [
+		{"recordId":1, "name":"SDI全景", "info":"SDI6"},
+		{"recordId":2, "name":"SDI法官", "info":"SDI1"},
+		{"recordId":3, "name":"SDI嫌疑人", "info":"SDI3"},
+		{"recordId":4, "name":"SDI公诉人", "info":"SDI4"},
+		{"recordId":5, "name":"SDI被告", "info":"SDI6"},
+		{"recordId":6, "name":"SDI原告", "info":"SDI2"},
+		{"recordId":7, "name":"SDI场景1", "info":"SDI1"},
+		{"recordId":8, "name":"SDI场景2", "info":"SDI2"},
+		{"recordId":9, "name":"SDI美国", "info":"SDI4"},
+		{"recordId":10, "name":"SDI中国", "info":"SDI7"}
+	],
+	"VGA": [
+		{"recordId":11, "name":"VGA全景", "info":"VGA6"},
+		{"recordId":12, "name":"VGA法官", "info":"VGA1"},
+		{"recordId":13, "name":"VGA嫌疑人", "info":"VGA3"},
+		{"recordId":14, "name":"VGA公诉人", "info":"VGA4"},
+		{"recordId":20, "name":"VGA中国", "info":"VGA7"}
+	]
+}

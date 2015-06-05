@@ -1,0 +1,63 @@
+/********logo图片定位********/
+.logo {
+	position: fixed;
+	left: 50px;
+	top: 20px;
+}
+/********登录表单********/
+.login-box {
+	width: 800px;
+	height: 635px;
+	padding-top: 140px;
+	margin: auto;
+	background: url(../img/login/login.png) no-repeat 0 0;
+	text-align: center;
+}
+/********输入框样式********/
+.login-box .input-text {
+	display: block;
+	width: 380px;
+	height: 76px;
+	padding: 25px 25px 25px 75px;
+	margin: auto;
+	line-height: 26px;
+	border: none;
+	outline: none;
+}
+/********用户名输入框********/
+#username {
+	background: url(../img/login/user1.png) no-repeat 0 0;
+	box-shadow: none;
+}
+#username:focus {
+	background-image: url(../img/login/user2.png);
+}
+/********密码输入框********/
+#password {
+	background: url(../img/login/pwd1.png) no-repeat 0 0;
+	box-shadow: none;
+}
+#password:focus {
+	background-image: url(../img/login/pwd2.png);
+}
+/********登录/重置按钮********/
+.login-box .form-btns {
+	margin-top: 25px;
+}
+.login-box .btn {
+	width: 169px;
+	height: 59px;
+	line-height: 59px;
+	padding-top: 0;
+	padding-bottom: 0;
+	background: url(../img/login/btn1.png) no-repeat 0 0;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: bold;
+}
+.login-box .btn:hover {
+	background-image: url(../img/login/btn2.png);
+}
+.login-box input[type=reset] {
+	margin-left: 10px;
+}

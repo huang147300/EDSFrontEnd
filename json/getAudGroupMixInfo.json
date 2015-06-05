@@ -1,0 +1,10 @@
+{
+	"code": 0,
+	"data": {
+		"AudGroupMixInfo": {
+			"groupNum": 1,
+			"inputNum": 10,
+			"audInPort": [0,2,4,6,8,10,12,14,16,18]
+		}
+	}
+}

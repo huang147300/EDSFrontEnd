@@ -1,0 +1,62 @@
+/********首页定位********/
+.portal-box {
+	position: relative;
+	max-width: 1440px;
+	height: 520px;
+	margin: auto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+/********7种背景颜色********/
+.portal-box .bg1 { background-color: #419FB9; }
+.portal-box .bg2 { background-color: #00C075; }
+.portal-box .bg3 { background-color: #8DA847; }
+.portal-box .bg4 { background-color: #E74C2E; }
+.portal-box .bg5 { background-color: #199DDE; }
+.portal-box .bg6 { background-color: #3E596A; }
+.portal-box .bg7 { background-color: #EDB53C; }
+/********2种高度********/
+.portal-box .height1 { height: 160px; }
+.portal-box .line-height1 { line-height: 160px; }
+.portal-box .height2 { height: 160px; }
+.portal-box .line-height2 { line-height: 160px; }
+/********模块间距********/
+.portal-box td {
+	border: 10px solid transparent;
+}
+/********3列表格的宽度********/
+.portal-box .table1 {
+	display: inline-block;
+	width: 25%;
+}
+.portal-box .table2,
+.portal-box .table3 {
+	display: inline-block;
+	width: 25%;
+	margin-left: 50px;
+}
+.portal-box table {
+	width: 100%;
+}
+/********模块内部元素样式********/
+.portal-box a {
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+}
+.portal-box span {
+	margin-left: 14px;
+}
+.portal-box img {
+	margin-top: 8px;
+}
+.portal-box .colspan2 img {
+	margin-top: 0;
+	vertical-align: middle;
+}
+.portal-box p {
+	margin-top: 5px;
+	margin-left: 20px;
+	text-align: left;
+}

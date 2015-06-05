@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "data": {
+    "bookInfo": [
+		{"initial":"C", "recordId":17, "addrName":"场景2", "info":"SDI2"},
+		{"initial":"C", "recordId":18, "addrName":"场景23", "info":"SDI23"},
+		{"initial":"C", "recordId":19, "addrName":"场景24", "info":"SDI24"},
+		
+		{"initial":"A", "recordId":1, "addrName":"全景", "info":"SDI6"},
+		{"initial":"A", "recordId":2, "addrName":"法官", "info":"SDI1"},
+		{"initial":"A", "recordId":3, "addrName":"嫌疑人", "info":"SDI3"},
+		{"initial":"A", "recordId":4, "addrName":"公诉人", "info":"SDI4"},
+		{"initial":"A", "recordId":5, "addrName":"被告", "info":"SDI6"},
+		
+		{"initial":"B", "recordId":11, "addrName":"法官", "info":"SDI1"},
+		{"initial":"B", "recordId":12, "addrName":"全景", "info":"SDI6"},
+		{"initial":"B", "recordId":13, "addrName":"场景2", "info":"SDI2"},
+		{"initial":"B", "recordId":14, "addrName":"场景1", "info":"SDI1"},
+		{"initial":"B", "recordId":15, "addrName":"中国", "info":"SDI7"},
+		{"initial":"B", "recordId":16, "addrName":"美国", "info":"SDI4"},
+		
+		{"initial":"A", "recordId":6, "addrName":"原告", "info":"SDI2"},
+		{"initial":"A", "recordId":7, "addrName":"场景1", "info":"SDI1"},
+		{"initial":"A", "recordId":8, "addrName":"场景2", "info":"SDI2"},
+		{"initial":"A", "recordId":9, "addrName":"美国", "info":"SDI4"},
+		{"initial":"A", "recordId":10, "addrName":"中国", "info":"SDI7"},
+		
+		{"initial":"1", "recordId":20, "addrName":"场景2", "info":"SDI22"},
+		{"initial":"$", "recordId":21, "addrName":"场景23", "info":"SDI23"},
+		{"initial":"@", "recordId":22, "addrName":"场景2", "info":"SDI22"},
+		{"initial":"*", "recordId":23, "addrName":"场景23", "info":"SDI23"},
+		{"initial":"&", "recordId":24, "addrName":"场景2", "info":"SDI22"},
+		{"initial":"%", "recordId":25, "addrName":"场景23", "info":"SDI23"},
+		{"initial":"7", "recordId":26, "addrName":"场景2", "info":"SDI22"},
+		{"initial":"#", "recordId":27, "addrName":"场景23", "info":"SDI23"}
+	],
+    "count": 4,
+    "endFlag": 1
+  }
+}

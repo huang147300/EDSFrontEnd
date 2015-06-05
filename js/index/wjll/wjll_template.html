@@ -1,0 +1,29 @@
+<p class="tip">
+	<span>磁盘存储状态：</span>
+	{{#each diskList}}
+		<span class="mr20">{{diskName}}：{{availbleSize}}可用/共{{totalSize}}；</span>
+	{{/each}}
+</p>
+
+<div id="searchTermsContainer"></div>
+
+<div id="fileContainer"></div>
+
+<div class="form-btns">
+	<button type="button" class="btn btn-default prevPage fl mr10">上一页</button>
+	<button type="button" class="btn btn-default nextPage fl">下一页</button>
+	<div class="pageNum fl">
+		<span>第</span>
+		<span class="curPage">1</span>
+		<span>页</span>
+	</div>
+	
+	<button type="button" class="btn btn-default batchDelete fr ml10">批量删除</button>
+	<button type="button" class="btn btn-default burnDisk fr">刻录光盘</button>
+</div>
+
+<div id="burnDiskContainer"></div>
+
+<div id="videoViewContainer"></div>
+
+<div id="audioViewContainer"></div>

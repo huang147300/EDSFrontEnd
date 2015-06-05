@@ -1,0 +1,368 @@
+/******用于表单布局样式******/
+/******组合formLine+formCell+fieldBox可以达到多种布局效果********/
+.formBox {
+	/********用于select定位********/
+	position: relative;
+}
+.formLine {
+	margin-bottom: 20px;
+}
+.lineName {
+	float: left;
+	width: 260px;
+	padding-right: 80px;
+	line-height: 38px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #2F2F2F;
+	text-align: right;
+}
+.formCell {
+	float: left;
+	margin-bottom: 10px;
+}
+.cellName {
+	float: left;
+	width: 140px;
+	padding-right: 20px;
+	line-height: 38px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #2F2F2F;
+	text-align: right;
+}
+.fieldBox {
+	overflow: hidden;
+}
+/******text文本输入框样式******/
+input[type=text],
+input[type=password] {
+	width: 200px;
+	height: 38px;
+	padding: 7px 16px;
+	vertical-align: middle;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.075) inset;
+	background: #FFF;
+	transition: border linear .2s, box-shadow linear .2s;
+	color: #1C94C4;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+	border-color: #FBCB09;
+	box-shadow: 0 0 5px 0 rgba(251,203,9,0.5) inset;
+	outline: 0;
+}
+/******spinner文本输入框样式******/
+input.spinner {
+	height: 30px;
+	width: 100px;
+	border: none;
+	background: none;
+	box-shadow: none;
+}
+input.spinner:focus {
+	border: 1px solid #FBCB09;
+	background: #FFF;
+}
+/******select样式******/
+select {
+	width: 200px;
+}
+.ui-selectmenu-button {
+	vertical-align: middle;
+}
+.ui-state-default,.ui-state-focus {
+	font-weight: normal !important;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+	padding: 7px 34px 7px 16px;
+	line-height: 22px;
+}
+/******checkbox样式******/
+input[type=checkbox] {
+	display: none;
+}
+.checkbox-label {
+	display: inline-block;
+	padding: 0 0 0 30px;
+	height: 38px;
+	line-height: 38px;
+	font-weight: normal;
+	background: url(../img/frame/checkbox.png) no-repeat 0 3px;
+}
+.checkbox-label.active {
+	background-position: 0 -61px;
+}
+/******radio样式******/
+input[type=radio] {
+	display: none;
+}
+.radio-label {
+	display: inline-block;
+	padding: 0 0 0 30px;
+	height: 38px;
+	line-height: 38px;
+	font-weight: normal;
+	background: url(../img/frame/checkbox.png) no-repeat 0 3px;
+}
+.radio-label.active {
+	background-position: 0 -61px;
+}
+/******radio-set样式******/
+.radio-set {
+	display: inline-block;
+	position: relative;
+	font-size: 0;
+	height: 52px;
+}
+.radio-set .radio-label {
+	height: 52px;
+	line-height: 52px;
+	padding: 0 1.5em;
+	font-size: 21px;
+	background: url(../img/form/radio/mid1.png) repeat-x 0 0;
+	color: #373737;
+	text-align: center;
+	vertical-align: top;
+	cursor: pointer;
+}
+.radio-label-first {
+	margin-left: 15px;
+}
+.radio-label-last {
+	margin-right: 15px;
+}
+.radio-split {
+	display: inline-block;
+	width: 4px;
+	height: 52px;
+	background: url(../img/form/radio/split.png) repeat-x 0 0;
+}
+.radio-left {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 15px;
+	height: 100%;
+	background: url(../img/form/radio/left1.png) repeat-x 0 0;
+}
+.radio-right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 15px;
+	height: 100%;
+	background: url(../img/form/radio/right1.png) repeat-x 0 0;
+}
+.radio-set .radio-label.active {
+	color: #FFF;
+	background: url(../img/form/radio/mid2.png) repeat-x 0 0;
+}
+.radio-set .radio-label.active+.radio-left {
+	background: url(../img/form/radio/left2.png) repeat-x 0 0;
+}
+.radio-set .radio-label.active+.radio-right {
+	background: url(../img/form/radio/right2.png) repeat-x 0 0;
+}
+/******按钮样式******/
+.btn {
+	padding: 0;
+	border: none;
+	outline: none;
+	background: #1E89B5;
+	color: #FFF;
+	font-size: 21px;
+	text-shadow: 0 2px 1px #555;
+}
+.btn-default {
+	/*padding: .8em 1.5em;*/
+	padding: .5em 1.1em;
+}
+.btn-default:hover {
+	background:  #F47900;
+}
+.btn-ls {
+	letter-spacing: 1em;
+	/*padding: .8em .5em .8em 1.5em;*/
+	padding: .5em .3em .5em 1.3em;
+}
+.btn-ls:hover {
+	background:  #F47900;
+}
+.btn-switch1 {
+	width: 65px;
+	height: 31px;
+	background: url(../img/form/slider/switch1_off.png) no-repeat;
+}
+.btn-switch1.active {
+	background: url(../img/form/slider/switch1_on.png) no-repeat;
+}
+.btn-switch2 {
+	width: 47px;
+	height: 49px;
+	background: url(../img/form/slider/switch2_off.png) no-repeat;
+}
+.btn-switch2.active {
+	background: url(../img/form/slider/switch2_on.png) no-repeat;
+}
+.btn-switch3 {
+	width: 108px;
+	height: 52px;
+	background: url(../img/form/switch3_off.png) no-repeat;
+}
+.btn-switch3.active {
+	background: url(../img/form/switch3_on.png) no-repeat;
+}
+.btn-switch4 {
+	padding-left: 30px;
+	height: 40px;
+	background: url(../img/form/disable1.png) no-repeat 0 5px;
+}
+.btn-switch4.active {
+	background: url(../img/form/enable1.png) no-repeat 1px 5px;
+}
+.btn-switch5 {
+	padding-left: 28px;
+	height: 40px;
+	background: url(../img/form/disable2.png) no-repeat 0 5px;
+}
+.btn-switch5.active {
+	background: url(../img/form/enable2.png) no-repeat 5px 5px;
+}
+.btn-switch6 {
+	padding-right: 30px;
+	height: 40px;
+	background: url(../img/form/advance1.png) no-repeat right 13px;
+	color: #373737;
+	font-size: 16px;
+	text-shadow: none;
+}
+.btn-switch6.active {
+	background: url(../img/form/advance2.png) no-repeat right 10px;
+}
+.searchBtn {
+	padding-left: 50px;
+	padding-right: 20px;
+	margin-left: 50px;
+	height: 38px;
+	background: #1E89B5 url(../img/form/search.png) no-repeat 10px center;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: none;
+}
+.searchBtn:hover {
+	background-color: #F47900;
+}
+.resetBtn {
+	padding-left: 50px;
+	padding-right: 20px;
+	margin-left: 20px;
+	height: 38px;
+	background: #1E89B5 url(../img/form/search.png) no-repeat 10px center;
+	color: #fff;
+	font-size: 16px;
+	text-shadow: none;
+}
+.resetBtn:hover {
+	background-color: #F47900;
+}
+/******水平slider样式******/
+.slider.ui-slider-horizontal {
+	float: left;
+	width: 480px;
+	margin: 11px 10px;
+}
+.slider.ui-slider-horizontal .ui-slider-range {
+	background: #1c94c4;
+}
+.slider.ui-slider-horizontal+.sliderValue {
+	line-height: 2.2;
+	font-size: 16px;
+	margin-left: 10px;
+}
+/******音频配置中垂直slider组件样式******/
+.slide-vertical-box {
+	float: left;
+	width: 96px;
+	height: 412px;
+}
+.slide-vertical-box .slide-vertical-box-name {
+	width: 100%;
+	height: 27px;
+	line-height: 30px;
+	padding: 0;
+	border: 1px solid transparent;
+	margin: 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #EAEAEA;
+	text-align: center;
+	background: none;
+}
+.slide-vertical-box .btn-switch1 {
+	display: block;
+	margin: 28px auto 8px auto;
+}
+.slide-vertical-box .btn-switch1.mt8 {
+	margin-top: 8px;
+}
+.slide-vertical-box .btn-switch2 {
+	display: block;
+	margin: auto;
+}
+.slide-vertical-box .color {
+	position: absolute;
+	left: 14px;
+	bottom: 16px;
+	width: 10px;
+	background: url(../img/form/slider/color1.png) no-repeat bottom;
+}
+.slide-vertical-box .ui-slider-vertical {
+	position: absolute;
+	right: 26px;
+	bottom: 16px;
+	width: 11px;
+	height: 261px;
+	border: none;
+	margin: 0;
+	background: transparent;
+}
+.slide-vertical-box .ui-slider-range {
+	background: transparent;
+}
+.slide-vertical-box .ui-slider-handle {
+	width: 66px;
+	height: 44px;
+	border: none;
+	left: -30px;
+	margin-bottom: -22px;
+	background: url(../img/form/slider/handler.png) no-repeat;
+	outline: none;
+	cursor: pointer;
+}
+.slide-vertical-box .sliderValue {
+	display: none;
+}
+/**********不同尺寸slider组件*********/
+.slide-vertical-box-sm {
+	position: relative;
+	width: 96px;
+	height: 412px;
+	background: url(../img/form/slider/panel1.png) no-repeat;
+}
+.slide-vertical-box-lg {
+	position: relative;
+	width: 96px;
+	height: 412px;
+	background: url(../img/form/slider/panel2.png) no-repeat;
+}
+.slide-vertical-box-lg .color {
+	background: url(../img/form/slider/color2.png) no-repeat bottom;
+	bottom: 23px;
+}
+.slide-vertical-box-lg .ui-slider-vertical {
+	height: 336px;
+	bottom: 23px;
+}

@@ -1,0 +1,184 @@
+<h3>RTSP设置</h3>
+
+<div class="formBox">
+	<div class="formLine">
+		<div class="fieldBox">
+			<div class="formCell fl">
+				<span class="cellName">启用RTSP服务：</span>
+				<div class="fieldBox">
+					<input type="checkbox" name="qyrtsp" id="qyrtsp"/>
+					<label for="qyrtsp" class="checkbox-label"></label>
+				</div>
+			</div>
+		</div>
+		<div class="fieldBox">
+			<div class="formCell fl">
+				<span class="cellName">服务端口号：</span>
+				<div class="fieldBox">
+					<div class="spinner">554</div>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">音频协议：</span>
+				<div class="fieldBox">
+					<select name="ypxy" id="ypxy">
+						<option value="0">AUTO</option>
+						<option value="1">AAC</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="formLine">
+		<span class="lineName">摄像机</span>
+		<div class="fieldBox">
+			<div class="formCell fl" id="cmCell" style="position:relative;">
+				<span class="cellName">名称：</span>
+				<div class="fieldBox">
+					<input type="text" name="mc" id="cm" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">视频协议：</span>
+				<div class="fieldBox">
+					<select name="spxy" id="spxy">
+						<option value="0">AUTO</option>
+						<option value="1">H.264</option>
+						<option value="2">H.264HP</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">视频格式：</span>
+				<div class="fieldBox">
+					<select name="spgs" id="spgs">
+						<option value="0">AUTO</option>
+						<option value="1">1080P</option>
+						<option value="2">720P</option>
+						<option value="3">4CIF</option>
+						<option value="4">1280X1024</option>
+						<option value="5">1024X768</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">视频帧率：</span>
+				<div class="fieldBox">
+					<select name="spzl" id="spzl">
+						<option value="0">AUTO</option>
+						<option value="1">30</option>
+						<option value="2">50</option>
+						<option value="3">60</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">视频带宽：</span>
+				<div class="fieldBox">
+					<select name="spdk" id="spdk">
+						<option value="0">256Kbps</option>
+						<option value="1">384Kbps</option>
+						<option value="2">512Kbps</option>
+						<option value="3">768Kbps</option>
+						<option value="4">1024Kbps</option>
+						<option value="5">1536Kbps</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="formLine">
+		<span class="lineName">演示</span>
+		<div class="fieldBox">
+			<div class="formCell fl" id="mcCell" style="position:relative;">
+				<span class="cellName">名称：</span>
+				<div class="fieldBox">
+					<input type="text" name="mc" id="mc" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">演示协议：</span>
+				<div class="fieldBox">
+					<select name="ysxy" id="ysxy">
+						<option value="0">AUTO</option>
+						<option value="1">H.264</option>
+						<option value="2">H.264HP</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">演示格式：</span>
+				<div class="fieldBox">
+					<select name="ysgs" id="ysgs">
+						<option value="0">AUTO</option>
+						<option value="1">1080P</option>
+						<option value="2">720P</option>
+						<option value="3">4CIF</option>
+						<option value="4">1280X1024</option>
+						<option value="5">1024X768</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">演示帧率：</span>
+				<div class="fieldBox">
+					<select name="yszl" id="yszl">
+						<option value="0">AUTO</option>
+						<option value="1">30</option>
+						<option value="2">50</option>
+						<option value="3">60</option>
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">演示带宽：</span>
+				<div class="fieldBox">
+					<select name="ysdk" id="ysdk">
+						<option value="0">256Kbps</option>
+						<option value="1">384Kbps</option>
+						<option value="2">512Kbps</option>
+						<option value="3">768Kbps</option>
+						<option value="4">1024Kbps</option>
+						<option value="5">1536Kbps</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="formLine">
+		<span class="lineName">会议图像点播名称</span>
+		<div class="fieldBox">
+			<div class="formCell fl" id="bdsxjCell" style="position:relative;">
+				<span class="cellName">本地会场（摄像机）：</span>
+				<div class="fieldBox">
+					<input type="text" name="bdsxj" id="bdsxj" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="bdysCell" style="position:relative;">
+				<span class="cellName">本地会场（演示）：</span>
+				<div class="fieldBox">
+					<input type="text" name="bdys" id="bdys" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="ydsxjCell" style="position:relative;">
+				<span class="cellName">远端会场（摄像机）：</span>
+				<div class="fieldBox">
+					<input type="text" name="ydsxj" id="ydsxj" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="ydysCell" style="position:relative;">
+				<span class="cellName">远端会场（演示）：</span>
+				<div class="fieldBox">
+					<input type="text" name="ydys" id="ydys" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="form-btns">
+		<button type="button" class="btn btn-ls saveBtn">保存</button>
+	</div>
+</div>

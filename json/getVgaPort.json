@@ -1,0 +1,55 @@
+{
+  "code": 0,
+  "data": {
+    "vgaInfo": [
+      {
+        "vgaPort": 0,
+        "name": "MIC0"
+      },
+      {
+        "vgaPort": 1,
+        "name": "MIC1"
+      },
+      {
+        "vgaPort": 2,
+        "name": "MIC2"
+      },
+      {
+        "vgaPort": 3,
+        "name": "MIC3"
+      },
+      {
+        "vgaPort": 4,
+        "name": "MIC4"
+      },
+      {
+        "vgaPort": 5,
+        "name": "MIC5"
+      },
+      {
+        "vgaPort": 6,
+        "name": "MIC6"
+      },
+      {
+        "vgaPort": 7,
+        "name": "MIC7"
+      },
+      {
+        "vgaPort": 8,
+        "name": "MIC8"
+      },
+      {
+        "vgaPort": 9,
+        "name": "MIC9"
+      },
+      {
+        "vgaPort": 10,
+        "name": "MIC10"
+      },
+      {
+        "vgaPort": 11,
+        "name": "MIC11"
+      }
+    ]
+  }
+}

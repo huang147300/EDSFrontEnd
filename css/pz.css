@@ -1,0 +1,136 @@
+/**********配置样式开始**********/
+.pz {
+	padding: 30px 50px;
+}
+.pz .formBox {
+	padding: 20px 0;
+}
+.pz .cellName {
+	padding-right: 5px;
+}
+.pz .fieldBox p {
+	margin: 0 0 10px 0;
+}
+.pz .form-btns .btn {
+	margin-left: 140px;
+}
+.pz .sliderBox .formCell {
+	width: 680px;
+}
+/**********配置样式结束**********/
+
+/**********网络设置样式开始**********/
+.wlsz-box {
+	padding: 20px;
+	margin: 0 0 -10px -10px;
+}
+.wlsz-box .btn {
+	width: 205px;
+	height: 120px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#pz_wlsz_wk .formCell[netType] {
+	display: none;
+}
+
+#pz_wlsz_nat .cellName,
+#pz_wlsz_sip .cellName {
+	width: 160px;
+}
+#pz_wlsz_nat .form-btns .btn,
+#pz_wlsz_sip .form-btns .btn {
+	margin-left: 160px;
+}
+
+#pz_wlsz_dksz .fieldBox {
+	margin-left: 118px;
+}
+/**********网络设置样式结束**********/
+
+/**********音频配置样式开始**********/
+.yppz-box-name {
+	margin-bottom: 5px;
+}
+.yppz-box-name h3 {
+	float: left;
+}
+.yppz-box-name .btn-switch4 {
+	margin-left: 50px;
+	color: #373737;
+	text-shadow: none;
+}
+.yppz-box-name .btn-switch5 {
+	margin-left: 20px;
+	color: #373737;
+	text-shadow: none;
+}
+
+.yppz .yppz-box table {
+	margin: auto;
+}
+.yppz .yppz-box td {
+	text-align: center;
+	padding: 10px 5px;
+	font-size: 0;
+}
+.yppz .yppz-box .btn {
+	padding: 1em;
+	text-shadow: none;
+}
+.yppz .btn.h100 {
+	line-height: 1.6;
+}
+.yppz .btn.w2 {
+	width: 4em;
+}
+.yppz .btn.w4 {
+	width: 6em;
+}
+.yppz .btn.w6 {
+	width: 8em;
+}
+.yppz .rightArrow {
+	width: 50px;
+	height: 6px;
+	margin-right: 20px;
+}
+.yppz .rightArrow.long {
+	width: 224px;
+}
+.yppz .rightArrow:after {
+	top: -4px;
+	border: 7px solid transparent;
+	border-left: 20px solid #1E89B5;
+}
+
+.yppz .slide-vertical-box-name:focus {
+	border: 1px solid #FBCB09;
+}
+
+
+.yppz .formBox {
+	padding-top: 0;
+}
+.yppz .shadow-box {
+	min-width: 1580px;
+}
+.yppz .form-btns .btn {
+	margin-left: 15px;
+}
+#pz_yppz_bzhy .fieldBox td,
+#pz_yppz_bdsc .fieldBox td {
+	padding: 5px 10px;
+}
+.yppz .fieldBox .btn-ls,
+.yppz .fieldBox .btn-ls {
+	margin-left: 50px;
+	margin-top: 345px;
+}
+#pz_yppz_bdsc .fieldBox .btn-ls {
+	margin-top: 385px;
+}
+#pz_yppz_bzhy .fieldBox .btn-ls {
+	margin-top: 265px;
+}
+/**********音频配置样式结束**********/

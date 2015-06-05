@@ -1,0 +1,25 @@
+<ul class="box-container justify-list">
+	<li class="justify-item">
+		<a class="add" href="#lxr/add">
+			<div class="box-head">添加联系人</div>
+			<div class="box-body"></div>
+		</a>
+	</li>
+	{{#each items}}
+		<li class="justify-item">
+			<a class="{{getLxrClass equType}}" href="#lxr/add/{{recordId}}">
+				<div class="box-head" title={{addrName}}>{{addrName}}</div>
+				<div class="box-body">{{getLxrInfo equType}}</div>
+			</a>
+			<button type="button" class="delBtn" data-id="{{recordId}}"></button>
+		</li>
+	{{/each}}
+	<li class="justify-item"></li>
+	<li class="justify-item"></li>
+	<li class="justify-item"></li>
+	<li class="justify-item"></li>
+	<li class="justify-item"></li>
+	<li class="justify-item"></li>
+	<li class="justify-item"></li>
+	<li class="justify-item"></li>
+</ul>

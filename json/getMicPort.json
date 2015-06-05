@@ -1,0 +1,69 @@
+{
+  "code": 0,
+  "data": {
+    "micInfo": [
+      {
+        "micPort": 0,
+        "name": "MIC0"
+      },
+      {
+        "micPort": 1,
+        "name": "MIC1"
+      },
+      {
+        "micPort": 2,
+        "name": "MIC2"
+      },
+      {
+        "micPort": 3,
+        "name": "MIC3"
+      },
+      {
+        "micPort": 4,
+        "name": "MIC4"
+      },
+      {
+        "micPort": 5,
+        "name": "MIC5"
+      },
+      {
+        "micPort": 6,
+        "name": "MIC6"
+      },
+      {
+        "micPort": 7,
+        "name": "MIC7"
+      },
+      {
+        "micPort": 8,
+        "name": "MIC8"
+      },
+      {
+        "micPort": 9,
+        "name": "MIC9"
+      },
+      {
+        "micPort": 10,
+        "name": "MIC10"
+      },
+      {
+        "micPort": 11,
+        "name": "MIC11"
+      }
+    ],
+    "sdiInfo": [
+      {
+        "camPort": 0,
+        "name": "SDI0"
+      },
+      {
+        "camPort": 1,
+        "name": "SDI1"
+      },
+      {
+        "camPort": 2,
+        "name": "SDI2"
+      }
+    ]
+  }
+}

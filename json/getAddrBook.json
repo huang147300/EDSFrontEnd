@@ -1,0 +1,40 @@
+{
+  "code": 0,
+  "data": {
+    "bookInfo": [
+      {
+        "addrName": "name1",
+        "camPort": 0,
+        "equType": 0,
+        "initial": 0,
+        "recordId": 0,
+        "vgaPort": 0
+      },
+      {
+        "addrName": "name2",
+        "equType": 1,
+        "initial": 0,
+        "ip": "0.0.0.0",
+        "recordId": 1,
+        "e164": "007"
+      },
+      {
+        "addrName": "name3",
+        "equType": 2,
+        "initial": 0,
+        "ip": "0.0.0.0",
+        "recordId": 2,
+        "e164": "008"
+      },
+      {
+        "addrName": "name4",
+        "equType": 3,
+        "initial": 0,
+        "recordId": 3,
+        "url": "http://www.baidu.com/"
+      }
+    ],
+    "count": 4,
+    "endFlag": 1
+  }
+}

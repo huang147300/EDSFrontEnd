@@ -1,0 +1,24 @@
+{
+	"code": 0,
+	"data": {
+		"volumeSingleInPut": [
+			{ "audInPort": 0, "audInName": "MIC1", "enable": 1, "phtPwrEn": 1, "involume": 2 },
+			{ "audInPort": 1, "audInName": "MIC2", "enable": 1, "phtPwrEn": 1, "involume": 4 },
+			{ "audInPort": 2, "audInName": "MIC3", "enable": 1, "phtPwrEn": 1, "involume": 6 },
+			{ "audInPort": 3, "audInName": "MIC4", "enable": 1, "phtPwrEn": 1, "involume": 8 },
+			{ "audInPort": 4, "audInName": "MIC5", "enable": 1, "phtPwrEn": 1, "involume": 10 },
+			{ "audInPort": 5, "audInName": "MIC6", "enable": 1, "phtPwrEn": 1, "involume": 12 },
+			{ "audInPort": 6, "audInName": "MIC7", "enable": 1, "phtPwrEn": 1, "involume": 14 },
+			{ "audInPort": 7, "audInName": "MIC8", "enable": 1, "phtPwrEn": 1, "involume": 16 },
+			{ "audInPort": 8, "audInName": "MIC9", "enable": 1, "phtPwrEn": 1, "involume": 18 },
+			{ "audInPort": 9, "audInName": "MIC10", "enable": 1, "phtPwrEn": 1, "involume": 20 },
+			{ "audInPort": 10, "audInName": "MIC11", "enable": 1, "phtPwrEn": 1, "involume": 22 },
+			{ "audInPort": 11, "audInName": "MIC12", "enable": 1, "phtPwrEn": 1, "involume": 24 },
+			
+			{ "audInPort": 12, "audInName": "LineIn1", "enable": 1, "involume": 10 },
+			{ "audInPort": 13, "audInName": "LineIn2", "enable": 1, "involume": 14 },
+			{ "audInPort": 14, "audInName": "LineIn3", "enable": 1, "involume": 18 },
+			{ "audInPort": 15, "audInName": "LineIn4", "enable": 1, "involume": 22 }
+		]
+	}
+}

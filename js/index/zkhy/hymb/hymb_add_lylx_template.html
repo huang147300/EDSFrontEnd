@@ -1,0 +1,228 @@
+<div class="formBox">
+	<div class="fieldBox mt10">
+		<input type="checkbox" name="enbRec" id="enbRec"/>
+		<label for="enbRec" class="checkbox-label">启用本路录音录像</label>
+	</div>
+	<div class="shadow-box">
+		
+		<div class="lzbm-sppz">
+			<h3>视频配置</h3>
+			<div class="formLine">
+				<span class="lineName">录制视频源：</span>
+				<div class="fieldBox">
+					<select name="equSrc" id="equSrc"></select>
+				</div>
+			</div>
+			<div class="formLine">
+				<span class="lineName">高画质视频：</span>
+				<div class="fieldBox">
+					<div class="fieldBox">
+						<input type="checkbox" name="HD_enbHandle" id="HD_enbHandle"/>
+						<label for="HD_enbHandle" class="checkbox-label">启用</label>
+					</div>
+					<div class="fieldBox hidden">
+						<div class="fieldBox">
+							<div class="formCell">
+								<input type="checkbox" name="HD_enbStoreHd" id="HD_enbStoreHd"/>
+								<label for="HD_enbStoreHd" class="checkbox-label">存储到硬盘</label>
+							</div>
+							<div class="formCell">
+								<input type="checkbox" name="HD_RTSP_enable" id="HD_RTSP_enable"/>
+								<label for="HD_RTSP_enable" class="checkbox-label">RTSP</label>
+								<input type="text" name="HD_RTSP_name" id="HD_RTSP_name" autocomplete="off"/>
+							</div>
+							<div class="formCell">
+								<input type="checkbox" name="HD_RTMP_enable" id="HD_RTMP_enable"/>
+								<label for="HD_RTMP_enable" class="checkbox-label">RTMP</label>
+								<input type="text" name="HD_RTMP_url" id="HD_RTMP_url" autocomplete="off"/>
+							</div>
+							<div class="formCell">
+								<button type="button" class="btn btn-switch6">高级</button>
+							</div>
+						</div>
+						<div class="fieldBox hidden">
+							<div class="formCell">
+								<span class="cellName">分辨率：</span>
+								<div class="fieldBox">
+									<select name="HD_fmt" id="HD_fmt"></select>
+								</div>
+							</div>
+							<div class="formCell">
+								<span class="cellName">帧率：</span>
+								<div class="fieldBox">
+									<select name="HD_frameRate" id="HD_frameRate"></select>
+								</div>
+							</div>
+							<div class="formCell">
+								<span class="cellName">协议：</span>
+								<div class="fieldBox">
+									<select name="HD_vidProt" id="HD_vidProt"></select>
+								</div>
+							</div>
+							<div class="formCell">
+								<span class="cellName">码率：</span>
+								<div class="fieldBox">
+									<select name="HD_bitRate" id="HD_bitRate"></select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="formLine">
+				<span class="lineName">标准画质视频：</span>
+				<div class="fieldBox">
+					<div class="fieldBox">
+						<input type="checkbox" name="SD_enbHandle" id="SD_enbHandle"/>
+						<label for="SD_enbHandle" class="checkbox-label">启用</label>
+					</div>
+					<div class="fieldBox hidden">
+						<div class="fieldBox">
+							<div class="formCell">
+								<input type="checkbox" name="SD_enbStoreHd" id="SD_enbStoreHd"/>
+								<label for="SD_enbStoreHd" class="checkbox-label">存储到硬盘</label>
+							</div>
+							<div class="formCell">
+								<input type="checkbox" name="SD_RTSP_enable" id="SD_RTSP_enable"/>
+								<label for="SD_RTSP_enable" class="checkbox-label">RTSP</label>
+								<input type="text" name="SD_RTSP_name" id="SD_RTSP_name" autocomplete="off"/>
+							</div>
+							<div class="formCell">
+								<input type="checkbox" name="SD_RTMP_enable" id="SD_RTMP_enable"/>
+								<label for="SD_RTMP_enable" class="checkbox-label">RTMP</label>
+								<input type="text" name="SD_RTMP_url" id="SD_RTMP_url" autocomplete="off"/>
+							</div>
+							<div class="formCell">
+								<button type="button" class="btn btn-switch6">高级</button>
+							</div>
+						</div>
+						
+						<div class="fieldBox hidden">
+							<div class="formCell">
+								<span class="cellName">分辨率：</span>
+								<div class="fieldBox">
+									<select name="SD_fmt" id="SD_fmt"></select>
+								</div>
+							</div>
+							<div class="formCell">
+								<span class="cellName">帧率：</span>
+								<div class="fieldBox">
+									<select name="SD_frameRate" id="SD_frameRate"></select>
+								</div>
+							</div>
+							<div class="formCell">
+								<span class="cellName">协议：</span>
+								<div class="fieldBox">
+									<select name="SD_vidProt" id="SD_vidProt"></select>
+								</div>
+							</div>
+							<div class="formCell">
+								<span class="cellName">码率：</span>
+								<div class="fieldBox">
+									<select name="SD_bitRate" id="SD_bitRate"></select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="lzbm-yppz">
+			<h3>音频配置</h3>
+			<div class="formLine">
+				<div class="fieldBox">
+					<div class="formCell">
+						<input type="checkbox" name="YP_enbHandle" id="YP_enbHandle"/>
+						<label for="YP_enbHandle" class="checkbox-label">启用录制</label>
+					</div>
+					<div class="formCell">
+						<button type="button" class="btn btn-switch6">高级</button>
+					</div>
+				</div>
+				<div class="fieldBox hidden">
+					<div class="formCell">
+						<span class="cellName">编码协议：</span>
+						<div class="fieldBox">
+							<select name="YP_audProt" id="YP_audProt"></select>
+						</div>
+					</div>
+					<div class="formCell">
+						<span class="cellName">采样率：</span>
+						<div class="fieldBox">
+							<select name="YP_sampleRate" id="YP_sampleRate"></select>
+						</div>
+					</div>
+					<div class="formCell">
+						<span class="cellName">码率：</span>
+						<div class="fieldBox">
+							<select name="YP_bitRate" id="YP_bitRate"></select>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="lzbm-djtbzm">
+			<h3>叠加台标字幕</h3>
+			<div class="formLine">
+				<div class="fieldBox">
+					<div class="formCell">
+						<input type="checkbox" name="endShowTheme" id="endShowTheme"/>
+						<label for="endShowTheme" class="checkbox-label">叠加会议主题</label>
+					</div>
+				</div>
+				<div class="fieldBox">
+					<div class="formCell">
+						<input type="checkbox" name="enbShowVolume" id="enbShowVolume"/>
+						<label for="enbShowVolume" class="checkbox-label">叠加音量信息</label>
+					</div>
+					<div class="formCell">
+						<span class="cellName">位置：</span>
+						<div class="fieldBox">
+							<select name="volPos" id="volPos"></select>
+						</div>
+					</div>
+				</div>
+				<div class="fieldBox">
+					<div class="formCell">
+						<input type="checkbox" name="enbShowMark" id="enbShowMark"/>
+						<label for="enbShowMark" class="checkbox-label">叠加台标</label>
+					</div>
+					<div class="formCell">
+						<span class="cellName">位置：</span>
+						<div class="fieldBox">
+							<select name="dispPos" id="dispPos"></select>
+						</div>
+					</div>
+				</div>
+				<div class="fieldBox">
+					<div class="formCell">
+						<input type="checkbox" name="enbShowCaption" id="enbShowCaption"/>
+						<label for="enbShowCaption" class="checkbox-label">叠加字幕</label>
+					</div>
+					<div class="formCell">
+						<span class="cellName">位置：</span>
+						<div class="fieldBox">
+							<select name="capPos" id="capPos"></select>
+						</div>
+					</div>
+					<div class="formCell">
+						<span class="cellName">移动速度：</span>
+						<div class="fieldBox">
+							<select name="scrollSpeed" id="scrollSpeed"></select>
+						</div>
+					</div>
+				</div>
+				<div class="fieldBox">
+					<div class="formCell">
+						<span class="cellName">字幕内容：</span>
+						<div class="fieldBox">
+							<textarea name="caption" id="caption" rows="5" cols="50">请输入字幕内容......</textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

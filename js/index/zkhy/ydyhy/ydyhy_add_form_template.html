@@ -1,0 +1,86 @@
+<div class="formBox">
+	<div class="formLine">
+		<div class="fieldBox">
+			<div class="formCell fl" id="nameCell" style="position:relative;">
+				<span class="cellName">会议名称：</span>
+				<div class="fieldBox">
+					<input type="text" name="name" id="name" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">会议模板：</span>
+				<div class="fieldBox">
+					<select name="tempRecordId" id="tempRecordId">
+						{{#each allTemp}}
+							<option data-stickit-bind-val="{{recordId}}">{{name}}</option>												
+						{{/each}}
+					</select>
+				</div>
+			</div>
+			<div class="formCell fl" id="numberCell" style="position:relative;">
+				<span class="cellName">会议号码：</span>
+				<div class="fieldBox">
+					<input type="text" name="number" id="number" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl">
+				<span class="cellName">会议带宽：</span>
+				<div class="fieldBox">
+					<select name="bandwidth" id="bandwidth"></select>
+				</div>
+			</div>
+			
+			<div class="formCell fl">
+				<span class="cellName">会议类型：</span>
+				<div class="fieldBox">
+					<select name="meetingType" id="meetingType">
+						<option data-stickit-bind-val="0">立即会议</option>
+						<option data-stickit-bind-val="1">预约会议</option>
+						<option data-stickit-bind-val="2">永久会议</option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="formCell fl" id="yyrq_container">
+				<span class="cellName">预约日期：</span>
+				<div class="fieldBox">
+					<input type="text" name="yyrq" id="yyrq" autocomplete="off"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="jsrq_container">
+				<span class="cellName">结束日期：</span>
+				<div class="fieldBox">
+					<input type="text" name="jsrq" id="jsrq" autocomplete="off"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="pwMeetingCell" style="position:relative;">
+				<span class="cellName">会议密码：</span>
+				<div class="fieldBox">
+					<input type="password" name="pwMeeting" id="pwMeeting" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+			<div class="formCell fl" id="pwChairmanCell" style="position:relative">
+				<span class="cellName">主席密码：</span>
+				<div class="fieldBox">
+					<input type="password" name="pwChairman" id="pwChairman" autocomplete="off" maxlength="31"/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="fieldBox">
+			<div class="formLine">
+				<span class="cellName">会议描述：</span>
+				<div class="fieldBox">
+					<input type="text" name="desc" id="desc" autocomplete="off" maxlength="255"/>
+				</div>
+			</div>
+		</div>
+		
+		<div class="fieldBox">
+			<div class="form-btns">
+				<button type="button" class="btn btn-default saveBtn">保存会议</button>
+				<button type="button" class="btn btn-default cancelBtn">取消返回</button>
+			</div>
+		</div>
+	</div>
+</div>

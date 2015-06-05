@@ -1,0 +1,51 @@
+<div class="formBox cf">
+	<div class="formLine" id="formLineW" style="position:relative;">
+		<div class="formCell">
+			<span class="cellName">文件类型</span>
+			<div class="fieldBox">
+				<select name="fileType" id="fileType"></select>
+			</div>
+		</div>
+		<div class="formCell">
+			<span class="cellName">磁盘</span>
+			<div class="fieldBox">
+				<select name="diskPath" id="diskPath">
+					<option data-stickit-bind-val="">全部磁盘</option>
+					{{#each diskList}}
+						<option data-stickit-bind-val="{{diskPath}}">{{diskName}}</option>
+					{{/each}}
+				</select>
+			</div>
+		</div>
+		<div class="formCell" id="confNumCell" style="position:relative;">
+			<span class="cellName">会议号</span>
+			<div class="fieldBox">
+				<input type="text" name="confNum" id="confNum" maxlength="31" />
+			</div>
+		</div>
+		<div class="formCell" id="confNameCell" style="position:relative;">
+			<span class="cellName">会议名</span>
+			<div class="fieldBox">
+				<input type="text" name="confName" id="confName"  maxlength="31"/>
+			</div>
+		</div>
+		<div class="formCell" id="convenorCell" style="position:relative">
+			<span class="cellName">召集人</span>
+			<div class="fieldBox">
+				<input type="text" name="convenor" id="convenor" maxlength="31"/>
+			</div>
+		</div>
+		<div class="formCell">
+			<span class="cellName">录制时间</span>
+			<div class="fieldBox">
+				<input type="text" name="startTime" id="startTime" />
+				<span>至</span>
+				<input type="text" name="endTime" id="endTime" />
+			</div>
+		</div>
+		<div class="formCell">
+			<button type="button" class="btn searchBtn">搜索</button>
+			<button type="button" class="btn resetBtn">重置</button>
+		</div>
+	</div>
+</div>

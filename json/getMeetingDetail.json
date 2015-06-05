@@ -1,0 +1,20 @@
+{
+  "code": 0,
+  "data": {
+	"recordId": 111,
+	"name": "会议名称111",
+	"desc": "这是一个远程会议",
+	"audProt": 1,
+	"vidProt": 1,
+	"vidFmt": 1,
+	"frameRate": 1,
+	"vidQuality": 1,
+	"secVidFlag": 1,
+	"secProt": 2,
+	"secFmt": 2,
+	"secFrameRate": 2,
+	"secQuality": 2,
+	"secVidSend": 2,
+	"enbTransGuard": 1
+  }
+}

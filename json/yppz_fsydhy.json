@@ -1,0 +1,26 @@
+{
+	"huiyi": [
+		{"switch":1, "value":10},
+		{"switch":1, "value":12},
+		{"switch":1, "value":14},
+		{"switch":1, "value":16},
+		{"switch":1, "value":18},
+		{"switch":1, "value":20},
+		{"switch":1, "value":22},
+		{"switch":1, "value":24},
+		{"switch":1, "value":26},
+		{"switch":1, "value":28}
+	],
+	"dianbo": [
+		{"switch":1, "value":28},
+		{"switch":1, "value":26},
+		{"switch":1, "value":24},
+		{"switch":1, "value":22},
+		{"switch":1, "value":20},
+		{"switch":1, "value":18},
+		{"switch":1, "value":16},
+		{"switch":1, "value":14},
+		{"switch":1, "value":12},
+		{"switch":1, "value":10}
+	]
+}

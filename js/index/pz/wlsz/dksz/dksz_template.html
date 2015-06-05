@@ -1,0 +1,40 @@
+<h3>呼叫端口设置</h3>
+
+<div class="formBox">
+	<div class="formLine">
+		<div class="fieldBox">
+			<p>H323注册GK端口：<span id="gkdk">1719</span></p>
+		</div>
+		<div class="fieldBox">
+			<p>H323呼叫监听端口：<span id="hjjtdk">1720</span></p>
+		</div>
+	</div>
+	
+	<div class="formLine" id="xydkLine" style="position:relative;">
+		<div class="fieldBox">
+			<p>协议端口（1024~65535，最小设置间隔为16）</p>
+		</div>
+		<div class="fieldBox">
+			从
+			<input type="text" name="xydk_min" id="xydk_min" class="spinner" maxlength="31"/>
+			到
+			<input type="text" name="xydk_max" id="xydk_max" class="spinner" />
+		</div>
+	</div>
+	
+	<div class="formLine" id="mtdkLine" style="position:relative;" maxlength="31">
+		<div class="fieldBox">
+			<p>媒体端口（1024~65535，最小设置间隔为16）</p>
+		</div>
+		<div class="fieldBox">
+			从
+			<input type="text" name="mtdk_min" id="mtdk_min" class="spinner" maxlength="31"/>
+			到
+			<input type="text" name="mtdk_max" id="mtdk_max" class="spinner" maxlength="31"/>
+		</div>
+	</div>
+
+	<div class="form-btns">
+		<button type="button" class="btn btn-ls saveBtn">保存</button>
+	</div>
+</div>
